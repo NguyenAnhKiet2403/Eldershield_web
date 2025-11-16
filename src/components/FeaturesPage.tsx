@@ -13,6 +13,12 @@ import {
   Zap,
 } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import canhbaocuocgoi from "./canhbaocuocgoi.png";
+import canhbaonguoithan from "./canhbaonguoithan.png";
+import cuocgoiblacklist from "./cuocgoiblacklist.png";
+import dinhvinguoithan from "./dinhvinguoithan.png";
+import tinnhanluadao from "./tinnhanluadao.png";
+import QRluadao from "./QRluadao.png";
 
 export function FeaturesPage() {
   const mainFeatures = [
@@ -27,7 +33,7 @@ export function FeaturesPage() {
         'Cảnh báo tức thì ngay trong cuộc gọi',
         'Học máy liên tục từ các mẫu lừa đảo mới',
       ],
-      image: 'https://images.unsplash.com/photo-1728047699149-82f1fd4ac9c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG9uZSUyMGNhbGwlMjB3YXJuaW5nJTIwYWxlcnR8ZW58MXx8fHwxNzYzMjYzMjI3fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: canhbaocuocgoi,
     },
     {
       icon: Shield,
@@ -40,7 +46,7 @@ export function FeaturesPage() {
         'Hiển thị mức độ nguy hiểm của số điện thoại',
         'Cho phép người dùng báo cáo số lừa đảo mới',
       ],
-      image: 'https://images.unsplash.com/photo-1762330916828-4d3709ee9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2VjdXJpdHklMjBwcm90ZWN0aW9ufGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: cuocgoiblacklist,
     },
     {
       icon: MessageSquare,
@@ -53,7 +59,7 @@ export function FeaturesPage() {
         'Đánh dấu và phân loại tin nhắn nguy hiểm',
         'Chặn tin nhắn spam tự động',
       ],
-      image: 'https://images.unsplash.com/photo-1639503547276-90230c4a4198?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjeWJlciUyMHNlY3VyaXR5JTIwc2hpZWxkfGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: tinnhanluadao,
     },
     {
       icon: Users,
@@ -66,7 +72,7 @@ export function FeaturesPage() {
         'Bao gồm thông tin chi tiết về cuộc gọi/tin nhắn đáng ngờ',
         'Cho phép người thân phản hồi và hỗ trợ',
       ],
-      image: 'https://images.unsplash.com/photo-1724600821056-8088d8140373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBzYWZldHklMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc2MzI2MzIyOHww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: canhbaonguoithan,
     },
     {
       icon: QrCode,
@@ -79,7 +85,7 @@ export function FeaturesPage() {
         'Xác minh thông tin ngân hàng',
         'Cảnh báo trước khi mở link nguy hiểm',
       ],
-      image: 'https://images.unsplash.com/photo-1762330916828-4d3709ee9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2VjdXJpdHklMjBwcm90ZWN0aW9ufGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: QRluadao,
     },
     {
       icon: MapPin,
@@ -92,7 +98,7 @@ export function FeaturesPage() {
         'Tích hợp với dịch vụ định vị',
         'Tự động kích hoạt khi phát hiện tình huống nguy hiểm',
       ],
-      image: 'https://images.unsplash.com/photo-1639503547276-90230c4a4198?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjeWJlciUyMHNlY3VyaXR5JTIwc2hpZWxkfGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: dinhvinguoithan,
     },
   ];
 

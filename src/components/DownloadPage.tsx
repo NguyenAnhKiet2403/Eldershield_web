@@ -1,5 +1,6 @@
 import { Apple, Smartphone, Shield, Download } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import logo from "./logo.png";
 
 export function DownloadPage() {
   const features = [
@@ -108,7 +109,7 @@ export function DownloadPage() {
 
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1762330916828-4d3709ee9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2VjdXJpdHklMjBwcm90ZWN0aW9ufGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+                src={logo}
                 alt="Eldershield App"
                 className="w-full h-full object-cover"
               />

@@ -93,7 +93,7 @@ export function HomePage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <ImageWithFallback
-                  src="./logo.png"
+                  src={logo}
                   alt="Eldershield App"
                   className="w-full h-full object-cover"
                 />

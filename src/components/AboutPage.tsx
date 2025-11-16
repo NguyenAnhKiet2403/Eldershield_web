@@ -7,6 +7,12 @@ import {
   TrendingUp,
 } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import akn from "./akn.png";
+import bkc from "./bkc.jpg";
+import lpkl from "./lpkl.jpg";
+import tnhg from "./tnhg.jpg";
+import logo from "./logo.png";
+
 
 export function AboutPage() {
   const values = [
@@ -46,28 +52,28 @@ export function AboutPage() {
 
   const team = [
     {
-      name: 'Nguyễn Văn Minh',
+      name: 'Lê Phạm Khánh Linh',
       role: 'CEO & Founder',
-      description: 'Chuyên gia về AI và Machine Learning với 15 năm kinh nghiệm',
-      image: 'https://images.unsplash.com/photo-1762330916828-4d3709ee9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2VjdXJpdHklMjBwcm90ZWN0aW9ufGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      description: 'Chuyên gia về khoa học dữ liệu trong kinh doanh và kinh tế',
+      image: lpkl,
     },
     {
-      name: 'Trần Thị Hương',
+      name: 'Trần Ngọc Hương Giang',
+      role: 'CEO',
+      description: 'Chuyên gia marketing',
+      image: tnhg,
+    },
+    {
+      name: 'Nguyễn Anh Kiệt',
       role: 'CTO',
-      description: 'Chuyên gia bảo mật và phát triển hệ thống quy mô lớn',
-      image: 'https://images.unsplash.com/photo-1639503547276-90230c4a4198?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjeWJlciUyMHNlY3VyaXR5JTIwc2hpZWxkfGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      description: 'Chuyên gia về AI và xử lý tín hiệu',
+      image: akn,
     },
     {
-      name: 'Lê Hoàng Nam',
-      role: 'Head of AI Research',
-      description: 'Tiến sĩ về nhận dạng giọng nói và xử lý ngôn ngữ tự nhiên',
-      image: 'https://images.unsplash.com/photo-1724600821056-8088d8140373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW1pbHklMjBzYWZldHklMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc2MzI2MzIyOHww&ixlib=rb-4.1.0&q=80&w=1080',
-    },
-    {
-      name: 'Phạm Minh Tuấn',
-      role: 'Head of Product',
-      description: 'Chuyên gia về trải nghiệm người dùng và phát triển sản phẩm',
-      image: 'https://images.unsplash.com/photo-1762330916828-4d3709ee9adb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2VjdXJpdHklMjBwcm90ZWN0aW9ufGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      name: 'Bùi Kim Chúc',
+      role: 'CTO',
+      description: 'Chuyên gia về AI và xử lý tín hiệu',
+      image: bkc,
     },
   ];
 
@@ -105,7 +111,7 @@ export function AboutPage() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1639503547276-90230c4a4198?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjeWJlciUyMHNlY3VyaXR5JTIwc2hpZWxkfGVufDF8fHx8MTc2MzI2MzIyN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+                src={logo}
                 alt="About Eldershield"
                 className="w-full h-full object-cover"
               />
