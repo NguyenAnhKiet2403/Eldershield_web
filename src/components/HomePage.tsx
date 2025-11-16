@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from "./logo.png";
 import {
   Shield,
   PhoneCall,
@@ -171,7 +172,7 @@ export function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="rounded-2xl overflow-hidden">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1728047699149-82f1fd4ac9c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaG9uZSUyMGNhbGwlMjB3YXJuaW5nJTIwYWxlcnR8ZW58MXx8fHwxNzYzMjYzMjI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={logo}
                 alt="How it works"
                 className="w-full h-full object-cover"
               />
